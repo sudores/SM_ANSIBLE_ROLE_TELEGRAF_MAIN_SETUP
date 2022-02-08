@@ -1,0 +1,3 @@
+---
+# defaults file for gorobchenkoa.telegraf_main_setup
+telegraf_tags: {}

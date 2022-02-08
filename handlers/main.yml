@@ -1,0 +1,8 @@
+---
+# handlers file for gorobchenkoa.telegraf_main_setup
+- name: restartTelegraf
+  ansible.builtin.service:
+    name: telegraf
+    state: restarted
+    enable: true
+

@@ -1,0 +1,10 @@
+---
+# tasks file for gorobchenkoa.telegraf_main_setup
+- name: Copy telegraf basic config to hosts
+  ansible.builtin.template:
+    src: telegraf.conf.j2
+    dest: /etc/telegraf/telegraf.conf
+    mode: 0644
+    owner: telegraf
+    group: telegraf
+  notify: restartTelegraf
