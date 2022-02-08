@@ -50,7 +50,7 @@ galaxy_info:
 dependencies:
   - role: gorobchenkoa.telegraf_install
     name: gorobchenkoa.telegraf_install
-    src: git+https://github.com/sudores/SM_ANSIBLE_ROLE_TELEGRAF_INSTALL.git
+    src: https://github.com/sudores/SM_ANSIBLE_ROLE_TELEGRAF_INSTALL.git
 
     
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
