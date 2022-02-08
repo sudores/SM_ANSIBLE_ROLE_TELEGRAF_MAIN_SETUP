@@ -51,7 +51,7 @@ dependencies:
   - role: gorobchenkoa.telegraf_install
     name: gorobchenkoa.telegraf_install
     src: https://github.com/sudores/SM_ANSIBLE_ROLE_TELEGRAF_INSTALL.git
-
+    scm: git
     
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
