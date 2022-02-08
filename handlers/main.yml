@@ -4,5 +4,5 @@
   ansible.builtin.service:
     name: telegraf
     state: restarted
-    enable: true
+    enabled: true
 
